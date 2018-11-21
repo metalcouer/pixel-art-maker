@@ -1,14 +1,26 @@
-.grid{
-    height: 15px;
-    width: 15px;
+.canvas{
+    height: 450px;
+    width: 450px;
     border-style: solid;
-    border-color: black
+    border-color: black;
+    display: flex;
+    justify-content: center;
+
 }
 
 body{
+    margin: 5%;
+    padding: 0%;
+    width: 100%;
     background-color:silver;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+h1{
+
+}
 .pallate{
-    
+
 }
