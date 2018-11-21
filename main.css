@@ -1,12 +1,29 @@
 .canvas{
-    height: 450px;
-    width: 450px;
+    height: 660px;
+    width: 660px;
+    background-color: white;
     border-style: solid;
     border-color: black;
     display: flex;
     justify-content: center;
 
 }
+
+.pixels{
+    width: 10px;
+    height: 10px;
+    border: black solid 1px;
+    display: flex;
+    flex-wrap: wrap
+
+}
+.row{
+    width:6350px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 
 body{
     margin: 5%;
